@@ -5,6 +5,10 @@ document.addEventListener('DOMContentLoaded', () => {
         moveRandom.addEventListener('mouseenter', (e) => {
             moveRandomElement(e.target);
         });
+
+        moveRandom.addEventListener('touchstart', (e) => {
+            moveRandomElement(e.target);
+        });
     }
 });
 
